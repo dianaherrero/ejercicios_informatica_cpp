@@ -2,15 +2,25 @@
 #include "pch.h"
 #include <iostream>
 
-#include <string>
+int** allocate_matrix(int N, int M) {
+	int**m = new int*[N];
+	for (int i = 0; i < N; i++) {
+		m[i] = new int[M];
+	}
 
-int main() {
-	std::string str = "mi abuela";
-	std::string str1 = str;
+	//inicializacion de la matriz
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < M; j++)
+			m[i][j] = 0;
+	}
+	return m;
+}
 
-	std::cout << str1;
+void free_matrix(int**m, int N) {
+	for (int i = 0; i < N; i++) {
+		delete[] m[i];
+	}
 
-	std::cout << "longitud: " << str.size();
-
-
+	delete[] m;
+	m = NULL;
 }
