@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ejercicio1", "ejercicio1.vcxproj", "{DD67C11E-840D-418B-A831-64FB19969DC9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ejercicios_inform", "ejercicio1.vcxproj", "{DD67C11E-840D-418B-A831-64FB19969DC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ejercicio_con_str", "..\ejercicio_con_str\ejercicio_con_str.vcxproj", "{9C2099A6-4DC8-4603-83C4-1ABD5997487C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mem_dinamica_matriz", "mem_dinamica_matriz\mem_dinamica_matriz.vcxproj", "{21B0077E-9051-4820-8AC5-196CD7E0BF59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{DD67C11E-840D-418B-A831-64FB19969DC9}.Release|x64.Build.0 = Release|x64
 		{DD67C11E-840D-418B-A831-64FB19969DC9}.Release|x86.ActiveCfg = Release|Win32
 		{DD67C11E-840D-418B-A831-64FB19969DC9}.Release|x86.Build.0 = Release|Win32
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Debug|x64.ActiveCfg = Debug|x64
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Debug|x64.Build.0 = Debug|x64
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Debug|x86.ActiveCfg = Debug|Win32
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Debug|x86.Build.0 = Debug|Win32
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Release|x64.ActiveCfg = Release|x64
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Release|x64.Build.0 = Release|x64
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Release|x86.ActiveCfg = Release|Win32
+		{9C2099A6-4DC8-4603-83C4-1ABD5997487C}.Release|x86.Build.0 = Release|Win32
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Debug|x64.ActiveCfg = Debug|x64
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Debug|x64.Build.0 = Debug|x64
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Debug|x86.ActiveCfg = Debug|Win32
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Debug|x86.Build.0 = Debug|Win32
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Release|x64.ActiveCfg = Release|x64
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Release|x64.Build.0 = Release|x64
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Release|x86.ActiveCfg = Release|Win32
+		{21B0077E-9051-4820-8AC5-196CD7E0BF59}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
