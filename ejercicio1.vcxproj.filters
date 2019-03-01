@@ -21,7 +21,7 @@
     <ClCompile Include="mat.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="a309.cpp">
+    <ClCompile Include="mem_dinamica_matriz.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
