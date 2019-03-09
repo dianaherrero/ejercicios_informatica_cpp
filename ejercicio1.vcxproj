@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mem_dinamica_matriz.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat.cpp" />
   </ItemGroup>
